@@ -24,10 +24,12 @@ public class RestApi_With_Token {
 		String url1="https://apmi-stage.cisco.com/custcare/fs/entitlement/ebf/data/softwareproducts/item/annuities/?itemName=";
 		
 		String itemName="1001815";
+		
 		//String itemName=stritemName;
 		String ampersand_Userid="&userId=";
 		String userId="latrjohn";
 		//String userId=entitledTo;
+		
 
 		URL obj = new URL(url1+itemName+ampersand_Userid+userId);
 		
