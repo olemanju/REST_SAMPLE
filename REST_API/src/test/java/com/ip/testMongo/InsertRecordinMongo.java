@@ -30,6 +30,7 @@ public class InsertRecordinMongo {
 		
 		DB myreaddb= mongoclient.getDB("nextgen");
 		
+		
 		Document doc= new Document("Name","Deepa")
 				.append("age", 28)
 				.append("college", "CMR")
